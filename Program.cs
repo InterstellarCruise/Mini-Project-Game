@@ -3,6 +3,7 @@
 
     public static void Main()
     {
+        Welcome();
         int loc = 0;
         bool game = true;
         ConsoleKey walk = Console.ReadKey().Key;
