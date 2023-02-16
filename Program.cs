@@ -8,8 +8,8 @@
         while (game)
         {
             Console.WriteLine("Press W to move");
-            char walk = Convert.ToChar(Console.ReadLine().ToUpper());
-            if (walk == 'W')
+            ConsoleKey walk = Console.ReadKey().Key;
+            if (walk == ConsoleKey.W)
             {
                 loc++;
             }
