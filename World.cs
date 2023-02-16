@@ -191,7 +191,7 @@ public static class World
         {
             if (location.ID == id)
             {
-                Console.WriteLine(location.Description);
+
                 return location;
             }
         }
