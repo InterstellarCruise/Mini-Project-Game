@@ -2,7 +2,8 @@
 {
 
     public static void Main()
-    {
+    {   
+        Welcome();
         int loc = 0;
         bool game = true;
         while (game)
@@ -22,5 +23,12 @@
 
 
         }
+    }
+
+    public static void Welcome()
+    {
+        Console.WriteLine("Hello Traveller, here starts your Adventure.\nPlease tell me your name.");
+        string? playersName = Console.ReadLine();
+        Player player = new Player(playersName, 50, 5, 0, 0, 0, null, null, null, null);
     }
 }
