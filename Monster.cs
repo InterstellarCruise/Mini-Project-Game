@@ -1,25 +1,23 @@
 public class Monster
 {
-    public int ID;
-    public string Name;
-    public string NamePlural;
-    public int MaximumDamage;
-    public int RewardExperience;
-    public int RewardGold;
-    public CountedItemList Loot;
-    public int CurrentHitPoints;
-    public int MaximumHitpoints;
-
-    public Monster(int MonsID, string MonsName, string MonsPlural, int MaxDMG, int RewExp, int RewGold, int CurHitPoints, int MaxHitPoints)
-
+    public int ID, MaximumDamage, RewardExperience, RewardGold, CurrentHitPoints, MaximumHitPoints;
+    public string Name, NamePlural;
+    public CountedItemList loot;
+    public Monster(int id, string name, string nameplural, int maxdamage, int rewexp, int rewgold, int currhp, int maxhp)
     {
-        this.ID = MonsID;
-        this.Name = MonsName;
-        this.NamePlural = MonsPlural;
-        this.MaximumDamage = MaxDMG;
-        this.RewardExperience = RewExp;
-        this.RewardGold = RewGold;
-        this.CurrentHitPoints = CurHitPoints;
+        this.ID = id;
+        this.Name = name;
+        this.NamePlural = nameplural;
+        this.MaximumDamage = maxdamage;
+        this.RewardExperience = rewexp;
+        this.RewardGold = rewgold;
+        this.CurrentHitPoints = currhp;
+        this.MaximumHitPoints = maxhp;
     }
-
+    public bool IsAlive() => (CurrentHitPoints > 0) ? true : false;
+    public int TakeDamage(int damage)
+    {
+        CurrentHitPoints = CurrentHitPoints - MaximumDamage;
+        return (CurrentHitPoints < 0) ? CurrentHitPoints = 0 : CurrentHitPoints;
+    }
 }
