@@ -31,4 +31,14 @@ public class Player
         CurrentHitPoints = CurrentHitPoints - damage;
         return (CurrentHitPoints < 0) ? CurrentHitPoints = 0 : CurrentHitPoints;
     }
+
+            public bool TryMoveTo(Location newLocation)
+    {
+        if (newLocation != null)
+        {
+            CurrentLocation = newLocation;
+            return true;
+        }
+        return false;
+    }
 }

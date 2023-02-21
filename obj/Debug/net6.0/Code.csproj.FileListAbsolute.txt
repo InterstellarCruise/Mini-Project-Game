@@ -43,3 +43,18 @@ C:\Users\milan\OneDrive\Documenten\GitHub\Mini-Project-Game\bin\Debug\net6.0\Cod
 C:\Users\milan\OneDrive\Documenten\GitHub\Mini-Project-Game\bin\Debug\net6.0\Code.pdb
 C:\Users\milan\OneDrive\Documenten\GitHub\Mini-Project-Game\obj\Debug\net6.0\Code.genruntimeconfig.cache
 C:\Users\milan\OneDrive\Documenten\GitHub\Mini-Project-Game\obj\Debug\net6.0\ref\Code.dll
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.csproj.AssemblyReference.cache
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.AssemblyInfoInputs.cache
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.AssemblyInfo.cs
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.csproj.CoreCompileInputs.cache
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.dll
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\refint\Code.dll
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.pdb
+C:\Users\diana\Desktop\Mini Project\Mini-Project\bin\Debug\net6.0\Code.exe
+C:\Users\diana\Desktop\Mini Project\Mini-Project\bin\Debug\net6.0\Code.deps.json
+C:\Users\diana\Desktop\Mini Project\Mini-Project\bin\Debug\net6.0\Code.runtimeconfig.json
+C:\Users\diana\Desktop\Mini Project\Mini-Project\bin\Debug\net6.0\Code.dll
+C:\Users\diana\Desktop\Mini Project\Mini-Project\bin\Debug\net6.0\Code.pdb
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\Code.genruntimeconfig.cache
+C:\Users\diana\Desktop\Mini Project\Mini-Project\obj\Debug\net6.0\ref\Code.dll

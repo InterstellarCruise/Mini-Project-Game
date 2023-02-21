@@ -20,4 +20,6 @@ public class Monster
         CurrentHitPoints = CurrentHitPoints - damage;
         return (CurrentHitPoints < 0) ? CurrentHitPoints = 0 : CurrentHitPoints;
     }
+
+    
 }

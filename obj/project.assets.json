@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\milan\\.nuget\\packages\\": {}
+    "C:\\Users\\diana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milan\\OneDrive\\Documenten\\GitHub\\Mini-Project-Game\\Code.csproj",
+      "projectUniqueName": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project\\Code.csproj",
       "projectName": "Code",
-      "projectPath": "C:\\Users\\milan\\OneDrive\\Documenten\\GitHub\\Mini-Project-Game\\Code.csproj",
-      "packagesPath": "C:\\Users\\milan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milan\\OneDrive\\Documenten\\GitHub\\Mini-Project-Game\\obj\\",
+      "projectPath": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project\\Code.csproj",
+      "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\milan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
