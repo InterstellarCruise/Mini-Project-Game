@@ -2,7 +2,7 @@ public class Player
 {
     public string Name;
     public int CurrentHitPoints;
-    public int MeximumHitPoints;
+    public int MaximumHitPoints;
     public int Gold;
     public int ExperiencePoints;
     public int Level;
@@ -16,7 +16,7 @@ public class Player
     {
         this.Name = PlayName;
         this.CurrentHitPoints = CurHitPoints;
-        this.MeximumHitPoints = MaxHitPoints;
+        this.MaximumHitPoints = MaxHitPoints;
         this.Gold = PlayerGold;
         this.ExperiencePoints = ExpPoints;
         this.Level = PlayerLevel;
@@ -24,5 +24,11 @@ public class Player
         this.CurrentLocation = CurLoc;
         this.QuestList = QList;
         this.Inventory = Inv;
+    }
+    public bool IsAlive() => (CurrentHitPoints > 0) ? true : false;
+    public int TakeDamage(int damage)
+    {
+        CurrentHitPoints = CurrentHitPoints - damage;
+        return (CurrentHitPoints < 0) ? CurrentHitPoints = 0 : CurrentHitPoints;
     }
 }

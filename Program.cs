@@ -3,36 +3,28 @@
 
     public static void Main()
     {
-        Welcome();
-        int loc = 0;
-        bool game = true;
-        ConsoleKey walk = Console.ReadKey().Key;
-        while (walk != ConsoleKey.Q)
-        {
-            Console.WriteLine("Press W to move");
-            walk = Console.ReadKey().Key;
-            Console.WriteLine("");
-            if (walk == ConsoleKey.W)
-            {
-                loc++;
-            }
-            if (walk == ConsoleKey.Q)
-            {
-                Console.WriteLine("You have quit the game!");
-            }
-
-            Location LocationObject = World.LocationByID(loc);
-            Console.WriteLine(LocationObject.Name);
-            Console.WriteLine(LocationObject.Description);
-            Console.WriteLine(((LocationObject.LocationToNorth != null) ? LocationObject.LocationToNorth.Name : (LocationObject.LocationToEast != null) ? LocationObject.LocationToEast.Name : (LocationObject.LocationToSouth != null) ? LocationObject.LocationToSouth.Name : (LocationObject.LocationToWest != null) ? LocationObject.LocationToWest.Name : "No Locations nearby"));
-
-        }
-        
-    }
-        public static void Welcome()
-    {
         Console.WriteLine("Hello Traveller, here starts your Adventure.\nPlease tell me your name.");
-        string? playersName = Console.ReadLine();
-        Player player = new Player(playersName, 50, 5, 0, 0, 0, null, null, null, null);
+        string? playerName = Console.ReadLine();
+        Player player = new Player(playerName, 50, 50, 0, 0, 0, World.WeaponByID(World.WEAPON_ID_RUSTY_SWORD), World.Locations[0], null, null);
+        Console.WriteLine($"Welcome {playerName}, good luck on your journey!\nIf you want to quit you can press Q anytime.");
+        Console.WriteLine("\nCurrent location: " + player.CurrentLocation.Name);
+        Console.WriteLine(player.CurrentLocation.Description);
+        Console.WriteLine(player.CurrentLocation.Compass());
+
+        player.TryMoveTo(player.CurrentLocation.GetLocationAt("E"));
+        while (Console.ReadLine().ToUpper() != "Q")
+        {
+            Console.WriteLine("Move in which direction (N/E/S/W): ");
+            string input = Console.ReadLine().ToUpper();
+            player.TryMoveTo(player.CurrentLocation.GetLocationAt(input));
+            Console.WriteLine(player.CurrentLocation.Name);
+            Console.WriteLine(player.CurrentLocation.Description);
+            Console.WriteLine(player.CurrentLocation.Compass());
+        }
+        Console.WriteLine("Goodbye traveller!");
     }
+
+
+
 }
+

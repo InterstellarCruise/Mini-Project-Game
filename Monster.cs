@@ -17,7 +17,7 @@ public class Monster
     public bool IsAlive() => (CurrentHitPoints > 0) ? true : false;
     public int TakeDamage(int damage)
     {
-        CurrentHitPoints = CurrentHitPoints - MaximumDamage;
+        CurrentHitPoints = CurrentHitPoints - damage;
         return (CurrentHitPoints < 0) ? CurrentHitPoints = 0 : CurrentHitPoints;
     }
 }

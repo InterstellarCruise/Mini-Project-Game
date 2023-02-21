@@ -8,31 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\milan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angel\\Desktop\\HR\\OODP\\week2\\MiniProject\\Mini-Project-Game\\Mini-Project-Game\\Code.csproj",
+      "projectUniqueName": "C:\\Users\\milan\\OneDrive\\Documenten\\GitHub\\Mini-Project-Game\\Code.csproj",
       "projectName": "Code",
-      "projectPath": "C:\\Users\\angel\\Desktop\\HR\\OODP\\week2\\MiniProject\\Mini-Project-Game\\Mini-Project-Game\\Code.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\angel\\Desktop\\HR\\OODP\\week2\\MiniProject\\Mini-Project-Game\\Mini-Project-Game\\obj\\",
+      "projectPath": "C:\\Users\\milan\\OneDrive\\Documenten\\GitHub\\Mini-Project-Game\\Code.csproj",
+      "packagesPath": "C:\\Users\\milan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\milan\\OneDrive\\Documenten\\GitHub\\Mini-Project-Game\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\milan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
