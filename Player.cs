@@ -25,4 +25,15 @@ public class Player
         this.QuestList = QList;
         this.Inventory = Inv;
     }
+
+        public bool TryMoveTo(Location newLocation)
+    {
+        if (newLocation != null)
+        {
+            CurrentLocation = newLocation;
+            return true;
+        }
+        return false;
+    }
 }
+
