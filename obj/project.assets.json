@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project-Game\\Code.csproj",
+      "projectUniqueName": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project\\Code.csproj",
       "projectName": "Code",
-      "projectPath": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project-Game\\Code.csproj",
+      "projectPath": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project\\Code.csproj",
       "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project-Game\\obj\\",
+      "outputPath": "C:\\Users\\diana\\Desktop\\Mini Project\\Mini-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
