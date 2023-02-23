@@ -37,7 +37,7 @@ public class Player
     }
 
         public bool IsAlive() => (CurrentHitPoints > 0) ? true : false;
-    public int TakeDamage(int damage)
+        public int TakeDamage(int damage)
     {
         CurrentHitPoints = CurrentHitPoints - damage;
         return (CurrentHitPoints < 0) ? CurrentHitPoints = 0 : CurrentHitPoints;
